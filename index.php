@@ -155,7 +155,7 @@ if ($stmt->execute()) {
             </div>
         </div>
 
-        <h3 class="footer-header">@100000 all rights reserved bu StoicDevs</h3>
+        <h3 class="footer-header">copyright 2023-24 all rights reserved by <a href="https://z.weebshq.us/">StoicDevs</a></h3>
 
 
 

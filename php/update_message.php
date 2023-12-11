@@ -52,7 +52,7 @@ foreach ($messages as $message) {
         }
     } else {
         // Ohhh god its our systemmmmm.... elvis bhai ke age koi bol sakta hai kyaaaaa.... 😎
-        if ($user === 'System' || 'admin') {
+        if ($user === 'System' || $user === 'admin') {
             $htmlOutput .= '<div class="their-name">' . $user . '</div><div class="message-holder"><div class="their-text" id="' . $msgId . '-' . $user . '">' .
             $Content . '<p class="timme">' . $timestamp . '</p></div></div>';
         }elseif ($id !== $user) {
